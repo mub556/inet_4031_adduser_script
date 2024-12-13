@@ -1,27 +1,29 @@
-# inet_4031_adduser_script
-# Automated User Creation Script
 
-## Overview
-This Python script automates the creation of users and assigns them to specified groups on a Linux system. It reads user data from `create-users.input`.
+---
 
-## Files
-- `create-users.py`: Python script for user and group creation.
-- `create-users.input`: Sample file with user details.
-- `README.md`: Documentation.
+### **2. Python User Management Automation (Assignment 9)**
 
-## Usage
+**Repository Name**: `python-user-management`
 
-1. **Prepare Input File**:
-   - Add each user’s details in `create-users.input` in this format:
-     ```
-     username:password:last name:first name:group1,group2
-     ```
-   - Example:
-     ```
-     user04:pass04:Last04:First04:group01
-     user05:pass05:Last05:First05:group02
-     ```
+**README.md**:
+```markdown
+# Python User Management Automation Script
 
-2. **Run the Script**:
+This repository contains Python scripts designed to automate user management tasks on Linux systems. The project demonstrates proficiency in Python scripting and operational automation for system administration.
+
+## Features
+- Automates the creation, deletion, and modification of user accounts.
+- Reads user data from CSV files for bulk account management.
+- Generates reports of existing user accounts for analysis.
+
+## Requirements
+- **Python 3** or higher.
+- Libraries:
+  - `csv`
+  - `os`
+  - Any additional libraries mentioned in `requirements.txt`.
+
+## Setup Instructions
+1. Clone the repository:
    ```bash
-   sudo ./create-users.py < create-users.input
+   git clone https://github.com/[YourGitHubUsername]/python-user-management.git
